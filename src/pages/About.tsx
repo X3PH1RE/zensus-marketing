@@ -43,6 +43,9 @@ const About = () => (
         name="description"
         content="Zensus is cash flow forecasting for founders with variable revenue. Built because too many startups fail from missed cash flow, not missed missions."
       />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content={PAGE_URL} />
+      <meta property="og:site_name" content="Zensus" />
       <meta property="og:title" content="About · Zensus" />
       <meta
         property="og:description"
@@ -51,6 +54,13 @@ const About = () => (
       <meta property="og:image" content="https://zensus.app/og/about.png" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
+      <meta property="og:image:alt" content="About Zensus social preview card" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="About · Zensus" />
+      <meta
+        name="twitter:description"
+        content="Zensus is cash flow forecasting for founders with variable revenue. Built because too many startups fail from missed cash flow, not missed missions."
+      />
       <meta name="twitter:image" content="https://zensus.app/og/about.png" />
       <link rel="canonical" href={PAGE_URL} />
       <script type="application/ld+json">{JSON.stringify(breadcrumbs)}</script>

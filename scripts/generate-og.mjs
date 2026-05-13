@@ -71,6 +71,22 @@ const CARDS = [
     accent: "green",
   },
   {
+    slug: "privacy",
+    category: "Privacy",
+    title: "Privacy Policy",
+    subtitle:
+      "How Zensus collects, uses, and protects your information. Bank credentials stay with Plaid, never with us, and your data never trains an AI model.",
+    accent: "green",
+  },
+  {
+    slug: "terms",
+    category: "Terms",
+    title: "Terms of Service",
+    subtitle:
+      "Subscription terms, acceptable use, intellectual property, and account responsibilities for the Zensus platform.",
+    accent: "green",
+  },
+  {
     slug: "integrations",
     category: "Integrations",
     title: "Connect the tools that run your business",
@@ -109,6 +125,14 @@ const CARDS = [
     subtitle:
       "Runway alerts, low-cash warnings, and daily digests delivered where your team already works.",
     accent: "slack",
+  },
+  {
+    slug: "austin",
+    category: "Austin",
+    title: "Zensus Austin",
+    subtitle:
+      "Cash flow forecasting for Austin founders with variable revenue and real billing-date runway visibility.",
+    accent: "green",
   },
 ];
 

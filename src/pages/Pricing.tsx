@@ -84,6 +84,9 @@ const Pricing = () => (
         name="description"
         content="Zensus Pro is $199/month. Billed monthly, cancel anytime. One plan with every integration, real-time runway, AI scenarios, and Slack alerts."
       />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://zensus.app/pricing" />
+      <meta property="og:site_name" content="Zensus" />
       <meta property="og:title" content="Pricing · Zensus" />
       <meta
         property="og:description"
@@ -92,6 +95,13 @@ const Pricing = () => (
       <meta property="og:image" content="https://zensus.app/og/pricing.png" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
+      <meta property="og:image:alt" content="Pricing page social preview card" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Pricing · Zensus" />
+      <meta
+        name="twitter:description"
+        content="Zensus Pro is $199/month. One plan with every integration, real-time runway, AI scenarios, and Slack alerts."
+      />
       <meta name="twitter:image" content="https://zensus.app/og/pricing.png" />
       <link rel="canonical" href="https://zensus.app/pricing" />
       <script type="application/ld+json">{JSON.stringify(breadcrumbs)}</script>

@@ -105,6 +105,9 @@ const Changelog = () => (
         name="description"
         content="What we have shipped on Zensus, most recent first. Per-release posts on new features, improvements, fixes, and security work."
       />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://zensus.app/changelog" />
+      <meta property="og:site_name" content="Zensus" />
       <meta property="og:title" content="Changelog · Zensus" />
       <meta
         property="og:description"
@@ -113,6 +116,13 @@ const Changelog = () => (
       <meta property="og:image" content="https://zensus.app/og/changelog.png" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
+      <meta property="og:image:alt" content="Changelog page social preview card" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Changelog · Zensus" />
+      <meta
+        name="twitter:description"
+        content="What we have shipped on Zensus, most recent first."
+      />
       <meta name="twitter:image" content="https://zensus.app/og/changelog.png" />
       <link rel="canonical" href="https://zensus.app/changelog" />
       <script type="application/ld+json">{JSON.stringify(breadcrumbs)}</script>

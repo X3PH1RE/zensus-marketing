@@ -43,11 +43,18 @@ const Index = () => {
       <Helmet>
         <title>Zensus · Cash flow forecasting for founders with variable revenue</title>
         <meta name="description" content="Know exactly when your cash runs out and what to do about it. Connect your bank, QuickBooks, and HubSpot for runway projections that match the calendar." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://zensus.app/" />
+        <meta property="og:site_name" content="Zensus" />
         <meta property="og:title" content="Zensus · Cash flow forecasting for founders" />
         <meta property="og:description" content="Runway that knows your annual contract hits March 14, not 'sometime in Q1.' Built for founders with variable revenue." />
         <meta property="og:image" content="https://zensus.app/og/home.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Zensus homepage social preview card" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Zensus · Cash flow forecasting for founders" />
+        <meta name="twitter:description" content="Runway that knows your annual contract hits March 14, not 'sometime in Q1.' Built for founders with variable revenue." />
         <meta name="twitter:image" content="https://zensus.app/og/home.png" />
         <link rel="canonical" href="https://zensus.app/" />
       </Helmet>
