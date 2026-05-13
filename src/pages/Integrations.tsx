@@ -64,6 +64,9 @@ const Integrations = () => (
         name="description"
         content="Every number on Zensus comes from a live integration. Plaid, QuickBooks, HubSpot, Slack. No CSV uploads, no manual data entry."
       />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://zensus.app/integrations" />
+      <meta property="og:site_name" content="Zensus" />
       <meta property="og:title" content="Integrations · Zensus" />
       <meta
         property="og:description"
@@ -72,6 +75,13 @@ const Integrations = () => (
       <meta property="og:image" content="https://zensus.app/og/integrations.png" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
+      <meta property="og:image:alt" content="Integrations page social preview card" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Integrations · Zensus" />
+      <meta
+        name="twitter:description"
+        content="Live integrations to Plaid, QuickBooks, HubSpot, and Slack. No manual data entry."
+      />
       <meta name="twitter:image" content="https://zensus.app/og/integrations.png" />
       <link rel="canonical" href="https://zensus.app/integrations" />
       <script type="application/ld+json">{JSON.stringify(breadcrumbs)}</script>

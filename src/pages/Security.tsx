@@ -24,6 +24,9 @@ const Security = () => (
         name="description"
         content="How Zensus protects your financial data. AES-256-GCM at rest, bank-level OAuth via Plaid and Intuit, account-level isolation, and zero AI training on your data."
       />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://zensus.app/security" />
+      <meta property="og:site_name" content="Zensus" />
       <meta property="og:title" content="Security at Zensus" />
       <meta
         property="og:description"
@@ -32,6 +35,13 @@ const Security = () => (
       <meta property="og:image" content="https://zensus.app/og/security.png" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
+      <meta property="og:image:alt" content="Security at Zensus social preview card" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Security at Zensus" />
+      <meta
+        name="twitter:description"
+        content="How Zensus protects your financial data. Bank-level OAuth, encryption at rest, account-level isolation."
+      />
       <meta name="twitter:image" content="https://zensus.app/og/security.png" />
       <link rel="canonical" href="https://zensus.app/security" />
       <script type="application/ld+json">{JSON.stringify(breadcrumbs)}</script>
