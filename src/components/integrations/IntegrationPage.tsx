@@ -37,6 +37,9 @@ export const IntegrationPage = ({
   sections,
   serviceSchema,
 }: IntegrationPageProps) => {
+  const pageUrl = `https://zensus.app/integrations/${slug}`;
+  const imageUrl = `https://zensus.app/og/integrations-${slug}.png`;
+  const imageAlt = `${metaTitle} social preview image`;
   const breadcrumbs = breadcrumbSchema([
     HOME_CRUMB,
     { name: "Integrations", url: "https://zensus.app/integrations" },
@@ -51,19 +54,20 @@ export const IntegrationPage = ({
     <Helmet>
       <title>{metaTitle}</title>
       <meta name="description" content={metaDescription} />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content={pageUrl} />
+      <meta property="og:site_name" content="Zensus" />
       <meta property="og:title" content={metaTitle} />
       <meta property="og:description" content={metaDescription} />
-      <meta
-        property="og:image"
-        content={`https://zensus.app/og/integrations-${slug}.png`}
-      />
+      <meta property="og:image" content={imageUrl} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
-      <meta
-        name="twitter:image"
-        content={`https://zensus.app/og/integrations-${slug}.png`}
-      />
-      <link rel="canonical" href={`https://zensus.app/integrations/${slug}`} />
+      <meta property="og:image:alt" content={imageAlt} />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={metaTitle} />
+      <meta name="twitter:description" content={metaDescription} />
+      <meta name="twitter:image" content={imageUrl} />
+      <link rel="canonical" href={pageUrl} />
       <script type="application/ld+json">{JSON.stringify(breadcrumbs)}</script>
       {serviceSchema && (
         <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
